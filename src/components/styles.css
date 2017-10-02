@@ -118,7 +118,7 @@ a:focus, input[type="a"]:focus {
 .selector-lol {
     background-image: url('./images/fiora.jpg');
     background-position: center;
-    
+
 }
 .selector-lol:hover{
     background-image: url('./images/fiora50.png');
@@ -409,7 +409,7 @@ a:focus, input[type="a"]:focus {
 }
 
 .footer-text {
-    color: rgba(255,255,255,0.2);
+    color: rgba(255,255,255,0.5);
     font-family: sans-serif;
     font-weight: 100;
     padding: 20px;
