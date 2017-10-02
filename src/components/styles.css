@@ -112,11 +112,13 @@ a:focus, input[type="a"]:focus {
     background-size: 100% 100%;
     background-size: cover;
     background-repeat: no-repeat;
+
 }
 
 .selector-lol {
     background-image: url('./images/fiora.jpg');
     background-position: center;
+    
 }
 .selector-lol:hover{
     background-image: url('./images/fiora50.png');
