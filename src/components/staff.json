@@ -1,0 +1,72 @@
+{
+    "staff": [
+        {
+            "name": "Raymond Chen",
+            "role": "President"
+        },
+        {
+            "name": "Luke Matthews",
+            "role": "Exec"
+        },
+        {
+            "name": "Jeffery Wu",
+            "role": "Exec"
+        },
+        {
+            "name": "Kitty Wang",
+            "role": "Staff"
+        },
+        {
+            "name": "Paulo Saquilayan",
+            "role": "Staff"
+        },
+        {
+            "name": "Will D'Andrade",
+            "role": "Staff"
+        },
+        {
+            "name": "Tresa LeBlanc-Doucet",
+            "role": "Finance Operations"
+        },
+        {
+            "name": "Cindy Wang",
+            "role": "Staff"
+        },
+        {
+            "name": "James Hannay",
+            "role": "Staff"
+        },
+        {
+            "name": "Kevin Ing",
+            "role": "Staff"
+        },
+        {
+            "name": "Jinsoo Choi",
+            "role": "Staff"
+        },
+        {
+            "name": "Johnson Zheng",
+            "role": "Staff"
+        },
+        {
+            "name": "Zachary Tsui",
+            "role": "Staff"
+        },
+        {
+            "name": "David Hu",
+            "role": "Staff"
+        },
+        {
+            "name": "Fupan Yao",
+            "role": "Staff"
+        },
+        {
+            "name": "Alice Wang",
+            "role": "Staff"
+        },
+        {
+            "name": "Jacob Erickson",
+            "role": "Web Development"
+        }
+    ]
+}

@@ -1,0 +1,480 @@
+a {
+    cursor: pointer;
+}
+
+button:focus, input[type="button"]:focus {
+    outline: none;
+}
+
+a:focus, input[type="a"]:focus {
+    outline: none;
+}
+
+/* Header style */
+
+.header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 30em;
+}
+
+.bg-image {
+    position: absolute;
+    opacity: 0.8;
+    background-image: url('./out.gif');
+    background-position: center;
+    background-size: 100% 100%;
+    background-size: cover;
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+    height: 30em;
+    width: 100%;
+    z-index: 2;
+}
+
+.title {
+    font-size: 5em;
+    z-index: 15;
+    color: white;
+}
+
+.logo-image {
+    position: absolute;
+    z-index: 10;
+    height: 20em;
+}
+
+
+
+/* Selector style */
+
+@media screen and (max-width: 700px) {
+    .widther {
+        width: 100%;
+        height: 5em;
+    }
+}
+
+@media screen and (max-width: 1120px) and (min-width: 700px){
+    .widther {
+        width: 9em;
+        height: 11em;
+    }
+}
+
+@media screen and (min-width: 1120px) {
+    .widther {
+        width: 16.66%;
+        height: 11em;
+    }
+}
+
+.selector-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    z-index: 1;
+    margin-top: 1em;
+}
+
+.selector {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.selector-lol {
+    background-image: url('./images/fiora.jpg');
+    background-position: center;
+}
+.selector-lol:hover{
+    background-image: url('./images/fiora50.png');
+    transition: background-image .3s ease;
+}
+
+.selector-ow {
+    background-image: url('./images/mercy.jpg');
+    background-position: 10% 50%;
+}
+.selector-ow:hover{
+    background-image: url('./images/mercy50.png');
+    transition: background-image .3s ease;
+}
+
+.selector-cs {
+    background-image: url('./images/cs.jpg');
+    background-position: 40% 50%;
+}
+.selector-cs:hover{
+    background-image: url('./images/cs50.png');
+    transition: background-image .3s ease;
+}
+
+.selector-smash {
+    background-image: url('./images/falcon.jpg');
+    background-position: 60% 50%;
+}
+.selector-smash:hover{
+    background-image: url('./images/falcon50.png');
+    transition: background-image .3s ease;
+}
+
+.selector-sf {
+    background-image: url('./images/sf.jpg');
+    background-position: center;
+}
+.selector-sf:hover{
+    background-image: url('./images/sf50.png');
+    transition: background-image .3s ease;
+}
+
+.selector-hearthstone {
+    background-image: url('./images/hs.jpg');
+    background-position: center;
+}
+.selector-hearthstone:hover{
+    background-image: url('./images/hs50.png');
+    transition: background-image .3s ease;
+}
+
+.sub-title {
+    opacity: 1 !important;
+    z-index: 3;
+}
+
+.bg-overlay {
+    position: absolute;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+50,000000+51,000000+100&1+1,0+13,0+50,1+100 */
+    background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 1%, rgba(0,0,0,0) 13%, rgba(0,0,0,0) 50%, rgba(0,0,0,0.02) 51%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 1%,rgba(0,0,0,0) 13%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.02) 51%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 1%,rgba(0,0,0,0) 13%,rgba(0,0,0,0) 50%,rgba(0,0,0,0.02) 51%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+.dark-overlay {
+    position: absolute;
+    pointer-events: none;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(0,0,0, 0.2);
+}
+
+/* Staff style */
+
+
+/* i need a css wizard to fix this */
+@media screen and (max-width: 450px){
+    .divisor {
+        width: 90%;
+    }
+    .per-item {
+        width: 50%;
+    }
+    .per-content {
+        margin-right: -16%;
+    }
+}
+@media screen and (max-width: 500px) and (min-width: 450px){
+    .divisor {
+        width: 80%;
+    }
+    .per-item {
+        width: 50%;
+    }
+    .per-content {
+        margin-right: -15%;
+    }
+}
+@media screen and (max-width: 570px) and (min-width: 500px){
+    .divisor {
+        width: 70%;
+    }
+    .per-item {
+        width: 50%;
+    }
+    .per-content {
+        margin-right: -15%;
+    }
+}
+@media screen and (max-width: 600px) and (min-width: 570px){
+    .divisor {
+        width: 90%;
+    }
+    .per-item {
+        width: 33%;
+    }
+    .per-content {
+        margin-right: -10%;
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 600px){
+    .divisor {
+        width: 80%;
+    }
+    .per-item {
+        width: 33%;
+    }
+    .per-content {
+        margin-right: -20%;
+    }
+}
+@media screen and (max-width: 1000px) and (min-width: 800px){
+    .divisor {
+        width: 70%;
+    }
+    .per-item {
+        width: 33%;
+    }
+    .per-content {
+        margin-right: -20%;
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 1000px){
+    .divisor {
+        width: 60%;
+    }
+    .per-item {
+        width: 33%;
+    }
+    .per-content {
+        margin-right: -20%;
+    }
+}
+@media screen and (max-width: 1400px) and (min-width: 1200px){
+    .divisor {
+        width: 60%;
+    }
+    .per-item {
+        width: 33%;
+    }
+    .per-content {
+        margin-right: -20%;
+    }
+}
+@media screen and (max-width: 1800px) and (min-width: 1400px){
+    .divisor {
+        width: 50%;
+    }
+    .per-item {
+        width: 33%;
+    }
+    .per-content {
+        margin-right: -20%;
+    }
+}
+@media screen and (min-width: 1800px) {
+    .divisor {
+        width: 40%;
+    }
+    .per-item {
+        width: 25%;
+    }
+    .per-content {
+        margin-right: -5%;
+    }
+}
+
+.staff-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.staff-title {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2em;
+}
+
+.staff-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex; 
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+.staff-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.staff-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.staff-name {
+    font-weight: 100;
+    font-size: 12px;
+    text-align: left;
+}
+
+.staff-img {
+    height: 40px;
+    width: auto;
+    border-radius: 20px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+/* Footer style */
+
+.footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding-top: 40px;
+}
+
+.footer-subcontainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-text {
+    color: rgba(255,255,255,0.2);
+    font-family: sans-serif;
+    font-weight: 100;
+    padding: 20px;
+    font-size: 12px;
+}
+
+/* Social style */
+
+.social-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex; 
+    display: flex;
+}
+
+.icon {
+    padding: 10px;
+}
+
+.icon:hover {
+    opacity: .5;
+    transition: opacity .3s ease;
+}
+
+/* Sponsors style */
+
+.sponsors {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 100px;
+}
+
+.sponsor-popup {
+    align-self: center;
+    font-family: sans-serif;
+    bottom: 10%;
+
+    z-index: 100;
+    color: white;
+    border: 0;
+    font-size: 12px;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.sponsor-close {
+    border: 0;
+}
+.sponsor-click {
+    background-color: transparent;
+    border: 0;
+}
+
+.sponsor-img {
+    width: auto;
+    height: 100px;
+    opacity: 0.6;
+}
+
+.sponsor-click:hover {
+    opacity: .5;
+    transition: opacity .3s ease;
+}
