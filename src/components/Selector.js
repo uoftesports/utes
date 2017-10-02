@@ -5,7 +5,7 @@ import './styles.css'
 export default class Selector extends Component {
     render() {
         return (
-            <div className="selector-container">
+            <div className={classnames("selector-container", 'container-width')}>
                 <div className="bg-overlay"/>
                 <div className="dark-overlay"/>
                 <a href="https://www.facebook.com/groups/UofTLA/" className={

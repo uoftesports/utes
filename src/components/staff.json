@@ -5,6 +5,22 @@
             "role": "President"
         },
         {
+            "name": "Paulo Saquilayan",
+            "role": "Vice President"
+        },
+        {
+            "name": "Will D'Andrade",
+            "role": "Exec"
+        },
+        {
+            "name": "Fupan Yao",
+            "role": "Exec"
+        },
+        {
+            "name": "James Hannay",
+            "role": "Exec"
+        },
+        {
             "name": "Luke Matthews",
             "role": "Exec"
         },
@@ -13,27 +29,15 @@
             "role": "Exec"
         },
         {
+            "name": "Tresa LeBlanc-Doucet",
+            "role": "Finance"
+        },
+        {
             "name": "Kitty Wang",
             "role": "Staff"
         },
         {
-            "name": "Paulo Saquilayan",
-            "role": "Staff"
-        },
-        {
-            "name": "Will D'Andrade",
-            "role": "Staff"
-        },
-        {
-            "name": "Tresa LeBlanc-Doucet",
-            "role": "Finance Operations"
-        },
-        {
             "name": "Cindy Wang",
-            "role": "Staff"
-        },
-        {
-            "name": "James Hannay",
             "role": "Staff"
         },
         {
@@ -54,10 +58,6 @@
         },
         {
             "name": "David Hu",
-            "role": "Staff"
-        },
-        {
-            "name": "Fupan Yao",
             "role": "Staff"
         },
         {

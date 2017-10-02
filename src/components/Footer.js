@@ -10,12 +10,12 @@ export default class Footer extends Component {
                     <Social />
                     <p className="footer-text">sponsored by</p>
                     <div className="sponsors">
-                        <a className="sponsor-click" target="_blank" href="https://levelupreality.ca/">
-                            <img className="sponsor-img" src={require('./images/sponsor1.png')}/>
+                        <a className="sponsor-click" rel="noopener noreferrer" target="_blank" href="https://levelupreality.ca/">
+                            <img alt="Levelup Reality" className="sponsor-img" src={require('./images/sponsor1.png')}/>
                         </a>
                     </div>
                 </div>
-                <p className="footer-text">designed by jacob erickson in 2017</p>
+                <a href="https://jaruserickson.com" rel="noopener noreferrer" target="_blank" className="footer-button"><p className="footer-text">designed by jacob erickson in 2017</p></a>
             </div>
         )
     }

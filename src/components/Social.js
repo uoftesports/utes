@@ -23,6 +23,7 @@ export default class Social extends Component {
                 <a className="icon" href={"https://instagram.com/uoftesports"} target="_blank">
                     <span> <FaInstagram color={'white'} size={24}/> </span>
                 </a>
+                
             </div>
         )
     }

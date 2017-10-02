@@ -6,8 +6,7 @@ export default class Header extends Component {
         return (
             <div className="header-container">
                 <div className="bg-image" />
-                <p className="title">UOFT ESPORTS</p>
-                <img className="logo-image" src={require('./utes.png')}/>
+                <img alt="" className="logo-image" src={require('./images/difloogo.png')}/>
             </div>
         )
     }

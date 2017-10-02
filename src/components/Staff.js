@@ -12,7 +12,7 @@ export default class Staff extends Component {
                 <div className={classnames("staff-content", 'per-content')}>
                     {
                         staff.staff.map(({name, role}, i) => (
-                            <StaffItem name={name} role={role} image={require(`./images/${name.substr(0, name.indexOf(' ')).toLowerCase()}.jpg`)}/>
+                            <StaffItem key={i} name={name} role={role} image={require(`./images/${name.substr(0, name.indexOf(' ')).toLowerCase()}.jpg`)}/>
                         ))
                     }
                 </div>

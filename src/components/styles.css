@@ -22,13 +22,13 @@ a:focus, input[type="a"]:focus {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    height: 30em;
+    height: 35em;
 }
 
 .bg-image {
     position: absolute;
-    opacity: 0.8;
-    background-image: url('./out.gif');
+    opacity: 0;
+    background-image: url('./outputter.gif');
     background-position: center;
     background-size: 100% 100%;
     background-size: cover;
@@ -37,9 +37,24 @@ a:focus, input[type="a"]:focus {
     -o-filter: blur(15px);
     -ms-filter: blur(15px);
     filter: blur(15px);
-    height: 30em;
+    height: 35em;
     width: 100%;
     z-index: 2;
+
+    animation-name: fadeIn;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.8;
+    }
 }
 
 .title {
@@ -48,27 +63,38 @@ a:focus, input[type="a"]:focus {
     color: white;
 }
 
+
+
 .logo-image {
     position: absolute;
     z-index: 10;
-    height: 20em;
+    height: 24em;
 }
 
 
 
 /* Selector style */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
     .widther {
         width: 100%;
-        height: 5em;
+        height: 4em;
+    }
+    .container-width {
+        width: 100%;
     }
 }
 
-@media screen and (max-width: 1120px) and (min-width: 700px){
+@media screen and (max-width: 1120px) and (min-width: 500px){
     .widther {
         width: 9em;
-        height: 11em;
+        height: 5em;
+    }
+    .container-width {
+        width: 100%;
+    }
+    .size {
+        margin-bottom: -15px;
     }
 }
 
@@ -77,6 +103,13 @@ a:focus, input[type="a"]:focus {
         width: 16.66%;
         height: 11em;
     }
+    .container-width {
+        width: 1122px;
+    }
+    .size {
+        margin-bottom: -15px;
+    }
+
 }
 
 .selector-container {
@@ -344,6 +377,18 @@ a:focus, input[type="a"]:focus {
     font-weight: 100;
 }
 
+.staff-sub {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: -webkit-flex; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .staff-content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -414,6 +459,11 @@ a:focus, input[type="a"]:focus {
     font-weight: 100;
     padding: 20px;
     font-size: 12px;
+    text-decoration: none;
+}
+
+.footer-button {
+    text-decoration: none;
 }
 
 /* Social style */
