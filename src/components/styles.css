@@ -28,7 +28,7 @@ a:focus, input[type="a"]:focus {
 .bg-image {
     position: absolute;
     opacity: 0;
-    background-image: url('./outputter.gif');
+    background-image: url('./bg.gif');
     background-position: center;
     background-size: 100% 100%;
     background-size: cover;
@@ -53,7 +53,7 @@ a:focus, input[type="a"]:focus {
         opacity: 0;
     }
     100% {
-        opacity: 0.8;
+        opacity: 1;
     }
 }
 
@@ -68,7 +68,7 @@ a:focus, input[type="a"]:focus {
 .logo-image {
     position: absolute;
     z-index: 10;
-    height: 30em;
+    height: 29em;
 }
 
 
