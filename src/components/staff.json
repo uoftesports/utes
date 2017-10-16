@@ -2,63 +2,59 @@
     "staff": [
         {
             "name": "Raymond Chen",
-            "role": "President"
+            "role": "President | CSGO"
         },
         {
             "name": "Paulo Saquilayan",
-            "role": "Vice President"
+            "role": "Vice Pres. | SMB4"
         },
         {
             "name": "Will D'Andrade",
-            "role": "Exec"
+            "role": "Exec | UTSF"
         },
         {
             "name": "Fupan Yao",
-            "role": "Exec"
+            "role": "Exec | UTLA"
         },
         {
             "name": "James Hannay",
-            "role": "Exec"
-        },
-        {
-            "name": "Luke Matthews",
-            "role": "Exec"
-        },
-        {
-            "name": "Jeffery Wu",
-            "role": "Exec"
-        },
-        {
-            "name": "Dennis Aumiller",
-            "role": "Staff"
-        },
-        {
-            "name": "Tresa LeBlanc-Doucet",
-            "role": "Finance"
-        },
-        {
-            "name": "Kitty Wang",
-            "role": "Staff"
-        },
-        {
-            "name": "Cindy Wang",
-            "role": "Staff"
-        },
-        {
-            "name": "Kevin Ing",
-            "role": "Staff"
+            "role": "Exec | UTLA"
         },
         {
             "name": "Jinsoo Choi",
-            "role": "Staff"
+            "role": "Exec | PUBG"
+        },
+        {
+            "name": "Luke Matthews",
+            "role": "Exec | Overwatch"
+        },
+        {
+            "name": "Jeffery Wu",
+            "role": "Exec | Hearthstone"
         },
         {
             "name": "Johnson Zheng",
-            "role": "Staff"
+            "role": "Internal Operations"
+        },
+        {
+            "name": "Kevin Ing",
+            "role": "Finance Director"
+        },
+        {
+            "name": "Tresa LeBlanc-Doucet",
+            "role": "Finance Operations"
+        },
+        {
+            "name": "Cindy Wang",
+            "role": "Social"
         },
         {
             "name": "Zachary Tsui",
-            "role": "Staff"
+            "role": "Events"
+        },
+        {
+            "name": "Dennis Aumiller",
+            "role": "Events"
         },
         {
             "name": "David Hu",
@@ -67,6 +63,10 @@
         {
             "name": "Alice Wang",
             "role": "Staff"
+        },
+        {
+            "name": "Kitty Wang",
+            "role": "Graphic Design"
         },
         {
             "name": "Jacob Erickson",
