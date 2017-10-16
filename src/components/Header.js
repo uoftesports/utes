@@ -6,7 +6,7 @@ export default class Header extends Component {
         return (
             <div className="header-container">
                 <div className="bg-image" />
-                <img alt="" className="logo-image" src={require('./utesbw.png')}/>
+                <img alt="" className="logo-image" src={require('./sweater_design_red.png')}/>
             </div>
         )
     }
