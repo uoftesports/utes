@@ -523,7 +523,12 @@ a:focus, input[type="a"]:focus {
 .sponsor-img {
     width: auto;
     height: 100px;
+    margin: 10px;
     opacity: 0.8;
+}
+
+.smaller-img {
+    height: 80px;
 }
 
 .sponsor-click:hover {

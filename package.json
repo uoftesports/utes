@@ -13,6 +13,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
+    "deploy": "npm run build && surge ./build uoftesports.club",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
