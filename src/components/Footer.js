@@ -37,15 +37,19 @@ export default class Footer extends Component {
                     <Social />
                     <p className="footer-text">sponsored by</p>
                     <div className="sponsors">
-                        <a className="sponsor-click" rel="noopener noreferrer" target="_blank" onClick={() => this.setState({show: true})}>
-                            <img alt="Levelup Reality" className="sponsor-img" src={require('./images/sponsor1.png')}/>
+                        <a className="sponsor-click" rel="noopener noreferrer" target="_blank" href={'https://www.hyperxgaming.com/us'}>
+                            <img alt="hyperx" className="sponsor-img smaller-img" src={require('./images/hyperx.png')}/>
                         </a>
                         <a className="sponsor-click" rel="noopener noreferrer" target="_blank" href={'http://www.vitasoy.com/'}>
-                            <img alt="vitasoy" className="sponsor-img smaller-img" src={require('./images/vitasoy.png')}/>
+                            <img alt="vitasoy" className="sponsor-img even-smaller-img" src={require('./images/vitasoy.png')}/>
+                        </a>
+                        <a className="sponsor-click" rel="noopener noreferrer" target="_blank" onClick={() => this.setState({show: true})}>
+                            <img alt="Levelup Reality" className="sponsor-img even-smaller-img" src={require('./images/sponsor1.png')}/>
                         </a>
                     </div>
+                    <a href="https://jaruserickson.com" rel="noopener noreferrer" target="_blank" className="footer-button"><p className="footer-text">designed by jacob erickson in 2017</p></a>
                 </div>
-                <a href="https://jaruserickson.com" rel="noopener noreferrer" target="_blank" className="footer-button"><p className="footer-text">designed by jacob erickson in 2017</p></a>
+                
             </div>
         )
     }

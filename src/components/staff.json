@@ -2,22 +2,26 @@
     "staff": [
         {
             "name": "Raymond Chen",
-            "role": "President | CSGO"
+            "role": "President"
         },
         {
             "name": "Paulo Saquilayan",
-            "role": "Vice Pres. | SMB4"
+            "role": "Vice President"
+        },
+        {
+            "name": "James Hannay",
+            "role": "Exec | UTLA"
         },
         {
             "name": "Will D'Andrade",
             "role": "Exec | UTSF"
         },
         {
-            "name": "Fupan Yao",
-            "role": "Exec | UTLA"
+            "name": "Jonathan Bernick",
+            "role": "Exec | SSB"
         },
         {
-            "name": "James Hannay",
+            "name": "Fupan Yao",
             "role": "Exec | UTLA"
         },
         {
